@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 
 export class CourseService {
 
-    private courseUrl: string = "http://localhost:3100/api/courses";
+    private courseUrl: string = "https://course-manager-imm.herokuapp.com/api/courses";
 
     constructor(private httpClient: HttpClient) {
 

@@ -10,9 +10,7 @@ import { Error404Component } from './component/error-404/error-404.component';
     ],
     imports: [
         RouterModule.forChild([
-            {
-                path: '**', component: Error404Component
-            }
+            
         ])
     ],
     exports: [
